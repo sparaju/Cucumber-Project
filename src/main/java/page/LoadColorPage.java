@@ -14,9 +14,9 @@ public class LoadColorPage {
 	}
 	
 	//Elements Library 
-	@FindBy(how = How.XPATH, using = "//*[@id=\"extra\"]/button[1]") 
+	@FindBy(how = How.XPATH, using = "//button[contains (text(), 'Set SkyBlue Background')]") 
 	WebElement SkyBlueBackgroundButton;
-	@FindBy(how = How.XPATH, using = "//*[@id=\"extra\"]/button[1]")
+	@FindBy(how = How.XPATH, using = "//button[contains (text(), 'Set White Background')]")
 	WebElement WhiteBackgroundButton;
 	
 	//methods to interact with the elements 

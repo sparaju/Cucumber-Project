@@ -21,7 +21,7 @@ WebDriver driver;
 	}
 	
 	//Elements Library
-	@FindBy(how = How.XPATH, using = "//*[@id=\"extra\"]/button[1]")////body[@style='background-color: white;']
+	@FindBy(how = How.XPATH, using = "//body[@style='background-color: white;']")
 	WebElement WhiteBackgroundColor; 
 	@FindBy(how = How.XPATH, using = "//body[@style='background-color: skyblue;']")
 	WebElement SkyBlueBackgroundColor; 
