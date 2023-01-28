@@ -65,11 +65,11 @@ public class BackgroundStepDefinition{
 		assertTrue(verifyColorWhite);
 	}
 	
-	@After
-	public void runDone() { 
-		loadColorPage.close();
+	//@After
+	//public void runDone() { 
+		//loadColorPage.close();
 	}
 	
-}
+
 
 

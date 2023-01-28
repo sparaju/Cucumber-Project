@@ -1,0 +1,4 @@
+page\LoadColorPage.class
+page\BackgroundTestPage.class
+util\BrowserFactory.class
+page\BasePage.class
